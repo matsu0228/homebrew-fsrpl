@@ -2,16 +2,16 @@
 class Fsrpl < Formula
   desc "fsrpl is CloudFirestore replication tool."
   homepage "https://github.com/matsu0228/fsrpl"
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/matsu0228/fsrpl/releases/download/v0.1.0/fsrpl_0.1.0_darwin_amd64.tar.gz"
-    sha256 "1434d53797dc5898ed04b9a2e5090e5ec6e284985591a56c08fbc37bbf09a1cc"
+    url "https://github.com/matsu0228/fsrpl/releases/download/v0.1.1/fsrpl_0.1.1_darwin_amd64.tar.gz"
+    sha256 "7440847e683ffd332495338e30679bc431c29fef5d48d7492524b8425fd5cf9f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/matsu0228/fsrpl/releases/download/v0.1.0/fsrpl_0.1.0_linux_amd64.tar.gz"
-      sha256 "13c34f62186a4bb98148a74948f2b843347322a880fec493c63cb490c6867d35"
+      url "https://github.com/matsu0228/fsrpl/releases/download/v0.1.1/fsrpl_0.1.1_linux_amd64.tar.gz"
+      sha256 "88e94ac73e25455e1bf12d3fd30b56cf25fde007e6d8578464201bff45e2e034"
     end
   end
 
